@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
-        "projectName": "Project4-Nhom3",
-        "projectPath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
-        "packagesPath": "C:\\Users\\quocv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
-=======
     "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {}
   },
   "projects": {
@@ -25,7 +12,6 @@
         "projectPath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
         "packagesPath": "C:\\Users\\quocv\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
->>>>>>> main
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quocv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,6 +40,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
