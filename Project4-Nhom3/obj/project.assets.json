@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
       "projectName": "Project4-Nhom3",
       "projectPath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
       "packagesPath": "C:\\Users\\quocv\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
+      "projectName": "Project4-Nhom3",
+      "projectPath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
+      "packagesPath": "C:\\Users\\quocv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
+>>>>>>> main
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quocv\\AppData\\Roaming\\NuGet\\NuGet.Config",
