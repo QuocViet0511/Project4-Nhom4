@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\project 4\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {}
+    "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {}
   },
   "projects": {
-    "C:\\work\\project 4\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {
+    "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\project 4\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
+        "projectUniqueName": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
         "projectName": "Project4-Nhom3",
-        "projectPath": "C:\\work\\project 4\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
-        "packagesPath": "C:\\Users\\lap\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\project 4\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
+        "projectPath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
+        "packagesPath": "C:\\Users\\quocv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quocv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.orenda.vn/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,14 +40,45 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
