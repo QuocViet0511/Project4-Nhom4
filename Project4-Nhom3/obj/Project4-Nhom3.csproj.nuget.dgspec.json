@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {}
+    "C:\\Users\\inter\\OneDrive\\Documents\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {
+    "C:\\Users\\inter\\OneDrive\\Documents\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
+        "projectUniqueName": "C:\\Users\\inter\\OneDrive\\Documents\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
         "projectName": "Project4-Nhom3",
-        "projectPath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
-        "packagesPath": "C:\\Users\\quocv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
+        "projectPath": "C:\\Users\\inter\\OneDrive\\Documents\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
+        "packagesPath": "C:\\Users\\inter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inter\\OneDrive\\Documents\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\quocv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\inter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.orenda.vn/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
