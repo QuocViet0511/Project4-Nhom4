@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "cwBZ8CaCdUjlgDar4tSK8tCJolKrgJ2kzLDicwfvfrI2QWecguUX6Wqci/JrEUdpUj4oiaUq8SQHZEyzaWwD9g==",
+  "dgSpecHash": "/xsXv0Metfd9+4x8tdtVaovTKCQOEnNfUAyqps+IEW0XCXJTqmjKYVR3CANUQvLSjMg/NyZypFRpGhwRjf8/Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\quocv\\OneDrive\\Tài liệu\\GitHub\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
-=======
-  "dgSpecHash": "jeIaja8XHZSzloKg6uDd/DU40V1uKXZfI2xF6D8nsMGG4pedTFiOEKBu7xc/zJ8yD/2xSc+pF6sOOtVJFxYmcw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\quocv\\Project4-Nhom4\\Project4-Nhom3\\Project4-Nhom3.csproj",
->>>>>>> main
+  "projectFilePath": "C:\\Users\\quocv\\Project4-Nhom3\\Project4-Nhom3\\Project4-Nhom3.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\quocv\\Project4-Nhom3\\Project4-Nhom3\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
