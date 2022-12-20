@@ -1990,6 +1990,7 @@
     <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.31" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
     <PackageReference Include="MySqlConnector" Version="2.2.3" />
+    <PackageReference Include="System.Data.OracleClient" Version="1.0.8" />
   </ItemGroup>
 
 </Project>
