@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DomainLayer.Models
 {
-    public class DanhMucSanPham
+    public class DanhMucSanPham 
     {
         [Key]
         public int Id { get; set; }
