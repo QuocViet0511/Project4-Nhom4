@@ -11,7 +11,6 @@ namespace DomainLayer.Models
     {
         [Key]
         public int Id { get; set; }
-        public int SanPhamId { get; set; }
         public string KeyName { get; set; }
         public string KeyInfo { get; set; }
         public DateTime NgayTao { get; set; }

@@ -20,5 +20,6 @@ namespace DomainLayer.Models
         public DateTime NgayTao { get; set; }
         public DateTime NgaySua { get; set; }
         public int GiamGiaId { get; set; }
+        public int KeySPId { get; set; }
     }
 }
