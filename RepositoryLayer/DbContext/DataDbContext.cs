@@ -11,7 +11,6 @@ namespace RepositoryLayer
     public class DataDbContext : DbContext
     {
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<SoLuongGioHang> SoLuongGioHang { get; set; }
         public virtual DbSet<SanPham> SanPham { get; set; }
         public virtual DbSet<Role> Role { get; set; }
         public virtual DbSet<KeySP> KeySP { get; set; }
