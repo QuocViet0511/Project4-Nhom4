@@ -2,11 +2,9 @@
 
 namespace DomainLayer.Models
 {
-    public class Banner
+    public class BaseEntity
     {
         [Key]
         public int Id { get; set; }
-        public string UrlLink { get; set; }
-        public string TieuDe { get; set; }
     }
 }
