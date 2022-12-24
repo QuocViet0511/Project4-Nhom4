@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer.Service
 {
-    internal interface IGioHangService
+    public interface IGioHangService
     {
         IEnumerable<GioHang> GetAll();
         GioHang GetGioHang(int id);

@@ -1,7 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer;
-using S.;
+using ServiceLayer.Service;
 
 internal class Program
 {
@@ -14,8 +14,8 @@ internal class Program
         builder.Services.AddDbContext<DataDbContext>
             (options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbContext")));
 
-        builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-        builder.Services.AddTransient<IGioHangService, GioHangService>();
+        builder.Services.AddScoped<IGioHangService, GioHangService>();
+/*        builder.Services.AddTransient<IGioHangService, GioHangService>();*/
 
 
         var app = builder.Build();

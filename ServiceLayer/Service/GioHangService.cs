@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ServiceLayer.Service
 {
-    internal class GioHangService : IGioHangService
+    public class GioHangService : IGioHangService
     {
         private readonly IRepository<GioHang> _repository;
         public GioHangService(IRepository<GioHang> repository)
