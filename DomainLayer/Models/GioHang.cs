@@ -5,8 +5,9 @@ namespace DomainLayer.Models
 {
     public class GioHang : BaseEntity
     {
-         //[key]
-       // public int Id { get; set; }
+
+        [Key]
+        public int Id { get; set; }
         public string SanPhamId { get; set; }
         public int UserId { get; set; }
         public int SoLuong { get; set; }

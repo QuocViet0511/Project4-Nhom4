@@ -9,7 +9,7 @@ namespace RepositoryLayer
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly DataDbContext _context;
-        private readonly DbSet<T> _entities;
+        public readonly DbSet<T> _entities;
         string errorMessage = string.Empty;
         public Repository(DataDbContext context)
         {
@@ -34,7 +34,8 @@ namespace RepositoryLayer
 
         public T Get(int id)
         {
-            return _entities.SingleOrDefault(e => e.Id == id);
+            //return _entities.SingleOrDefault(e => e.Id == id);
+            return null;
         }
 
         public void Insert(T entity)
