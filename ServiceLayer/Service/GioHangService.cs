@@ -6,6 +6,14 @@ using System.Linq;
 
 namespace ServiceLayer.Service
 {
+    public interface IGioHangService
+    {
+        IEnumerable<GioHang> GetAll();
+        GioHang GetGioHang(int id);
+        void InsertGioHang(GioHang gioHang);
+        void DeleteGioHang(int id);
+        void UpdateGioHang(GioHang gioHang);
+    }
     public class GioHangService : IGioHangService
     {
         private readonly IRepository<GioHang> _repository;
