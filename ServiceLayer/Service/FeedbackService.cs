@@ -40,14 +40,14 @@ namespace ServiceLayer.Service
             return _repository.Get(id);
         }
 
-        public void InsertFeedback(Feedback Feedback)
+        public void InsertFeedback(Feedback feedback)
         {
-            _repository.Insert(Feedback);
+            _repository.Insert(feedback);
         }
 
-        public void UpdateFeedback(Feedback Feedback)
+        public void UpdateFeedback(Feedback feedback)
         {
-            _repository.Update(Feedback);
+            _repository.Update(feedback);
         }
     }
 }
