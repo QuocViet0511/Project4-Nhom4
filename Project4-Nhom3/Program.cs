@@ -15,7 +15,16 @@ internal class Program
             (options => options.UseMySQL(builder.Configuration.GetConnectionString("AppDbContext")));
 
         builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        builder.Services.AddTransient<IBaiVietService, BaiVietService>();
+        builder.Services.AddTransient<IBannerService, BannerService>();
+        builder.Services.AddTransient<IBinhLuanService, BinhLuanService>();
+        builder.Services.AddTransient<IDanhMucSanPhamService, DanhMucSanPhamService>();
+        builder.Services.AddTransient<IFeedbackService, FeedbackService>();
         builder.Services.AddTransient<IGioHangService, GioHangService>();
+        builder.Services.AddTransient<IKeySPService, KeySPService>();
+        builder.Services.AddTransient<IRoleService, RoleService>();
+        builder.Services.AddTransient<ISanPhamService, SanPhamService>();
+        builder.Services.AddTransient<IUserService, UserService>();
 
 
         var app = builder.Build();
