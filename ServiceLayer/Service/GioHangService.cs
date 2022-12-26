@@ -30,12 +30,12 @@ namespace ServiceLayer.Service
             return _repository.Get(id);
         }
 
-        public void InsertContact(GioHang gioHang)
+        public void InsertGioHang(GioHang gioHang)
         {
             _repository.Insert(gioHang);
         }
 
-        public void UpdateCountry(GioHang gioHang)
+        public void UpdateGioHang(GioHang gioHang)
         {
             _repository.Update(gioHang);
         }

@@ -7,8 +7,8 @@ namespace ServiceLayer.Service
     {
         IEnumerable<GioHang> GetAll();
         GioHang GetGioHang(int id);
-        void InsertContact(GioHang gioHang);
+        void InsertGioHang(GioHang gioHang);
         void DeleteGioHang(int id);
-        void UpdateCountry(GioHang gioHang);
+        void UpdateGioHang(GioHang gioHang);
     }
 }
