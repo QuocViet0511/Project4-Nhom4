@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DomainLayer.Models
 {
-    public class SanPham
+    public class SanPham : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public string RollNo { get; set; }
         public int DanhMucSanPhamId { get; set; }
         public string TenSanPham { get; set; }

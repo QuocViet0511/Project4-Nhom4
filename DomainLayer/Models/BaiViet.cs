@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DomainLayer.Models
 {
-    public class BaiViet
+    public class BaiViet : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public string ChuDe { get; set; }
         public string NoiDung { get; set; }
         public string Image { get; set; }

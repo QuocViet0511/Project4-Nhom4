@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DomainLayer.Models
 {
-    public class BinhLuan
+    public class BinhLuan : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public int UserId { get; set; }
         public int SanPhamId { get; set; }
         public int ParentId { get; set; }

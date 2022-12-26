@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DomainLayer.Models
+﻿namespace DomainLayer.Models
 {
-    public class Banner
+    public class Banner : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public string UrlLink { get; set; }
         public string TieuDe { get; set; }
     }
