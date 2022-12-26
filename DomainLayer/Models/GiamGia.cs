@@ -1,12 +1,9 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
 namespace DomainLayer.Models
 {
-    public class GiamGia
+    public class GiamGia : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public string Name { get; set; }
         public string ThongTin { get; set; }
         public decimal PhanTramGiamGia { get; set; }

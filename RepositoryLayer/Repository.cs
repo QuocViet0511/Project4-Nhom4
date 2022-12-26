@@ -16,7 +16,6 @@ namespace RepositoryLayer
             _context = context;
             _entities = context.Set<T>();
         }
-
         public void Delete(T entity)
         {
             if (entity == null)
@@ -26,18 +25,14 @@ namespace RepositoryLayer
             _entities.Remove(entity);
             _context.SaveChanges();
         }
-
         public IEnumerable<T> GetAll()
         {
             return _entities.AsEnumerable();
         }
-
         public T Get(int id)
         {
-            //return _entities.SingleOrDefault(e => e.Id == id);
-            return null;
+            return _entities.SingleOrDefault(e => e.Id == id);
         }
-
         public void Insert(T entity)
         {
             if (entity == null)
@@ -47,7 +42,6 @@ namespace RepositoryLayer
             _entities.Add(entity);
             _context.SaveChanges();
         }
-
         public void Remove(T entity)
         {
             if (entity == null)
@@ -56,18 +50,16 @@ namespace RepositoryLayer
             }
             _entities.Remove(entity);
         }
-
-        public void SaveChange()
-        {
-            _context.SaveChanges();
-        }
-
         public void Update(T entity)
         {
             if (entity == null)
             {
                 throw new ArgumentNullException("entity");
             }
+            _context.SaveChanges();
+        }
+        public void SaveChange()
+        {
             _context.SaveChanges();
         }
     }

@@ -1,11 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DomainLayer.Models
+﻿namespace DomainLayer.Models
 {
-    public class Role
+    public class Role : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public string RoleName { get; set; }
 
     }

@@ -1,9 +1,5 @@
 ﻿using DomainLayer.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServiceLayer.Service
 {
@@ -13,5 +9,6 @@ namespace ServiceLayer.Service
         GioHang GetGioHang(int id);
         void InsertContact(GioHang gioHang);
         void DeleteGioHang(int id);
+        void UpdateCountry(GioHang gioHang);
     }
 }

@@ -1,12 +1,9 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
 namespace DomainLayer.Models
 {
-    public class SanPham
+    public class SanPham : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public string RollNo { get; set; }
         public int DanhMucSanPhamId { get; set; }
         public string TenSanPham { get; set; }

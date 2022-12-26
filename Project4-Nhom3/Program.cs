@@ -12,10 +12,10 @@ internal class Program
 
         builder.Services.AddControllersWithViews();
         builder.Services.AddDbContext<DataDbContext>
-            (options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbContext")));
+            (options => options.UseMySQL(builder.Configuration.GetConnectionString("AppDbContext")));
 
-        builder.Services.AddScoped<IGioHangService, GioHangService>();
-/*        builder.Services.AddTransient<IGioHangService, GioHangService>();*/
+        builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        builder.Services.AddTransient<IGioHangService, GioHangService>();
 
 
         var app = builder.Build();
@@ -24,7 +24,6 @@ internal class Program
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Home/Error");
-            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             app.UseHsts();
         }
 

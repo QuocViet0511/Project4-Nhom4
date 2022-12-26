@@ -1,12 +1,9 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
 namespace DomainLayer.Models
 {
-    public class KeySP
+    public class KeySP : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
         public int SanPhamId { get; set; }
         public string KeyName { get; set; }
         public string KeyInfo { get; set; }
